@@ -55,3 +55,11 @@ interface IFriends {
 }
 
 const friends : IFriends = ['x', 'y']
+
+
+type Vehicle = {
+    brand: string
+}
+type Car = Vehicle & {
+    model: string
+}

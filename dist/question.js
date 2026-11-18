@@ -1,4 +1,3 @@
-"use strict";
 // const biyerjnneEligible = (age : number) => {
 //     // if(age >= 21) {
 //     //     console.log('Biye hbe');
@@ -13,3 +12,4 @@
 const theme = undefined;
 const selectedTheme = theme ?? 'light';
 console.log(selectedTheme);
+export {};

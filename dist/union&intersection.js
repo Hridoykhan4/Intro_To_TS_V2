@@ -1,4 +1,3 @@
-"use strict";
 const getDashboard = (role) => {
     if (role === "admin") {
         return "Admin Dashboard";
@@ -62,3 +61,4 @@ const poorUser = {
 const throwErr = (msg) => {
     throw new Error(msg);
 };
+export {};
