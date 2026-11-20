@@ -2,4 +2,11 @@
 // import './question.js'
 // import './typeAssertion.js'
 // import './interface.js'
-import './genericWihInterface.js'
+// import './genericWihInterface.js'
+// import './genericFunction.js'
+// import './constraint.js'
+
+// import './keyOfConstraint.js'
+
+// import './enum.js'
+import './asconst.js'
