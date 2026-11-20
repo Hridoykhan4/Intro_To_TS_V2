@@ -7,4 +7,5 @@
 // import './constraint.js'
 // import './keyOfConstraint.js'
 // import './enum.js'
-import './asconst.js';
+// import './asconst.js'
+import './mapped.js';
