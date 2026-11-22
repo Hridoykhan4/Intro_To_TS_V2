@@ -11,4 +11,7 @@
 // import './enum.js'
 // import './asconst.js'
 
-import './mapped.js'
+// import './mapped.js'
+
+// import './lastModule/class.js'
+import './lastModule/allInOne.js'
