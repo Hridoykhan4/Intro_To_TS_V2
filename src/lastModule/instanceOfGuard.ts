@@ -35,7 +35,29 @@ const isTeacher = (user : Person) => {
     return user instanceof Teacher
 }
 
+
+const getUserInfo = (user: Person) => {
+    if(isStudent(user)) {
+        user.doStudy(10)
+    } else if (isTeacher(user)) {
+        user.takeClass(5)
+    }
+    else {
+        user.getSleep(15)
+    }
+}
+
 const student1 = new Student('Mr. Student')
 const teacher1 = new Teacher('Mr. Teacher')
 const person1 = new Person('Mr. Person')
-console.log(student1 instanceof Student);
+
+
+
+getUserInfo(teacher1)
+
+function pluckValues<T, K extends keyof T>(items: T[], key: K): T[K][] {
+  return items.map((item) => item[key]);
+}
+
+
+console.log(pluckValues([{name: "Rahim", roll: 12}], 'name'));

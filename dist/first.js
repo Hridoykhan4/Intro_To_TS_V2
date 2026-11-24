@@ -12,4 +12,9 @@
 // import './lastModule/class.js'
 // import './lastModule/inheritance.js'
 // import './lastModule/typeguard.js'
-import './lastModule/instanceOfGuard.js';
+// import './lastModule/instanceOfGuard.js'
+// import './lastModule/accessmodifiers.js'
+// import './lastModule/gettersetter.js'
+// import './lastModule/static.js'
+// import './lastModule/polymorphism.js'
+import './lastModule/abstraction.js';
