@@ -17,4 +17,5 @@
 // import './lastModule/gettersetter.js'
 // import './lastModule/static.js'
 // import './lastModule/polymorphism.js'
-import './lastModule/abstraction.js';
+// import './lastModule/abstraction.js'
+import './lastModule/encapsulation.js';
