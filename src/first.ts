@@ -27,4 +27,6 @@
 // import './lastModule/polymorphism.js'
 
 // import './lastModule/abstraction.js'
-import './lastModule/encapsulation.js'
+// import './lastModule/encapsulation.js'
+
+import './kobaShamsuLast/last.js'

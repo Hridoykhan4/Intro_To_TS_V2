@@ -1,3 +1,4 @@
+
 // let anything : any;
 
 // anything = 222;
@@ -19,12 +20,13 @@
 // const result2 = kgToGMConverted('2 kg') as string 
 // console.log({result1, result2});
 
+
 type CustomError = {
     message: string
 }
 
 try{
-    
+        
 }
 
 catch(err) {
