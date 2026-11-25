@@ -1,6 +1,8 @@
-const addStudentToCourse = <T extends Record<string, unknown>> (studentInfo: T) => ({
-    course: "CBDL",
-    ...studentInfo
-})
+type Area <T> = {
+    [key in keyof T]: T[key]
+}
 
-console.log(addStudentToCourse({name: "Ss"}));
+const area : Area<{height: string; width: number}> = {
+     height: '12',
+     width: 12
+}

@@ -1,6 +1,5 @@
-const addStudentToCourse = (studentInfo) => ({
-    course: "CBDL",
-    ...studentInfo
-});
-console.log(addStudentToCourse({ name: "Ss" }));
+const area = {
+    height: '12',
+    width: 12
+};
 export {};
